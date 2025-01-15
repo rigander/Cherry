@@ -1,0 +1,13 @@
+footer{
+  background-color: #282d37;
+  height: 229px;
+}
+.facebook, .linkedin, .instagram, .skype{
+  cursor: pointer;
+  width: 6px;
+  height: 6px;
+  fill: #ad8dcc;
+  &:hover{
+    fill: white;
+  }
+}
