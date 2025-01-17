@@ -51,11 +51,134 @@
         </nav>
         <nav class="breadcrumbs">
             <ul>
-                <li><a href="#">Home</a></li>/
-                <li><a href="#">Another page</a></li>/
+                <li><a href="#">Home</a></li>
+                <span class="slash">/</span>
+                <li><a href="#">Another page</a></li>
+                <span class="slash2">/</span>
                 <li><a id="this-page" href="#">This page</a></li>
             </ul>
         </nav>
+        <div class="central-block">
+            <aside class="aside">
+                <form class="form_contact-us" action="">
+                    <h2>Contact Us</h2>
+                    <input placeholder="Your Name" required class="name" type="text">
+                    <input placeholder="Daytime Number" pattern="^\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$" required class="daytime-num" type="tel">
+                    <input placeholder="Email Address" required class="email" type="email">
+                    <input placeholder="City" class="city" required type="text">
+                    <select required class="problem-with" >
+                        <option value="" disabled selected hidden>Problem With</option>
+                        <option value="value1">Air Condition</option>
+                        <option value="value2">Air Compressor</option>
+                        <option value="value3">Sea water pump</option>
+                        <option value="value4">LT water pump</option>
+                        <option value="value5">HT water pump</option>
+                    </select>
+                    <select required class="brand">
+                        <option value="" disabled selected hidden>Brand</option>
+                        <option value="value1">Mitsubishi</option>
+                        <option value="value2">LG</option>
+                        <option value="value3">Cooper & Hunter</option>
+                        <option value="value4">HP</option>
+                        <option value="value5">Devcon</option>
+                    </select>
+                    <button>Send</button>
+                </form>
+                <article>
+                    <h2>Headline</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo
+                    </p>
+                    <a href="#">More about</a>
+                </article>
+            </aside>
+            <div class="central-block_content">
+                <article class="c-block_top-article">
+                    <h1>What We Do...</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </article>
+                <section class="media-block">
+                    <article class="admin-panel">
+                        <h2>Admin Panel</h2>
+                        <video controls>
+                            <source src="" type="video/mp4">
+                        </video>
+                    </article>
+                    <article class="shortcodes">
+                        <h2>Shortcodes</h2>
+                        <video controls>
+                            <source src="" type="video/mp4">
+                        </video>
+                    </article>
+                    <article class="videos">
+                        <h2>Videos</h2>
+                        <video controls>
+                            <source src="" type="video/mp4">
+                        </video>
+                    </article>
+                </section>
+                <section class="lists">
+                    <h1>Lists</h1>
+                    <div class="list-circle">
+                        <h3>List style circle</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="list-unstyled">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="list-ordered">
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipiscing elit</li>
+                            <li>Facilisis in pretium nisl aliquet</li>
+                            <li>Nulla volutpat aliquam velit</li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Aenean sit amet erat nunc</li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="table">
+                    <h1>Table</h1>
+                </section>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="social">
