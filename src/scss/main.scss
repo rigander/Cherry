@@ -146,36 +146,12 @@ body{
 .central-block_content{
   margin-left: 28px;
 }
-/* Aside (Contact Form and HeadLine) */
+/* Aside Contact Form */
 aside{
   width: 213px;
   margin-top: 19px;
   margin-left: 22px;
   font-family: Arial, sans-serif;
-  article{
-    h2{
-      margin: 23px 0 0 0;
-      color: #282d33;
-      font-size: 18px;
-      font-weight: bold;
-    }
-    p{
-      margin: 5px 0 0 0;
-      height: 131px;
-      color: #5c646e;
-      font-size: 12px;
-      width: 215px;
-      line-height: 1.67;
-      word-spacing: 0.1rem;
-    }
-    a{
-      display: inline-block;
-      margin-left: 1px;
-      margin-top: 19px;
-      color: #95161f;
-      font-size: 12px;
-    }
-  }
 }
 .form_contact-us{
   width: 213px;
@@ -245,4 +221,113 @@ aside{
     border-color: #eee;
   }
 }
+/* Aside Headline paragraph */
+aside{
+  article{
+    h2{
+      margin: 23px 0 0 0;
+      color: #282d33;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    p{
+      margin: 5px 0 0 0;
+      height: 131px;
+      color: #5c646e;
+      font-size: 12px;
+      width: 215px;
+      line-height: 1.67;
+      word-spacing: 0.1rem;
+    }
+    a{
+      display: inline-block;
+      margin-left: 1px;
+      margin-top: 19px;
+      color: #95161f;
+      font-size: 12px;
+    }
+  }
+}
 
+
+.c-block_top-article{
+  padding-top: 7px;
+  width: 696px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.41;
+  color: #5c646e;
+  h1{
+    font-weight: bold;
+    color: #a5adb8;
+    font-size: 24px;
+    line-height: 0.58;
+    &::first-letter{
+      color: #ae4b5d;
+    }
+  }
+}
+.what-we-do-link{
+  color: #95161f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.what-we-do-link:hover {
+  color: #b0252e;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  transform: scale(1.05);
+}
+
+.what-we-do-link:active {
+  color: #7b1019;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+  transform: scale(0.97);
+  opacity: 0.8;
+}
+
+/* Media Block */
+.media-block{
+  article{
+    display: inline-block;
+    h2{
+      margin-top: 3px;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 0.78;
+      color: #282d33;
+    }
+    video{
+      width: 196px;
+      height: 142px;
+      margin-right: 14px;
+      box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.3);
+      border: solid 1px #fff;
+      background-color: #fff;
+      box-sizing: border-box;
+    }
+  }
+}
+
+/* Section Lists */
+.lists{
+  font-family: Arial, sans-serif;
+  color: #5c646e;
+  h1{
+      margin: 30px 0 0 0;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 0.58;
+      color: #a5adb8;
+    &::first-letter{
+      color: #ae4b5d;
+    }
+  }
+}
+.lists-content{
+  display: flex;
+}
