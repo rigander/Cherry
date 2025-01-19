@@ -142,6 +142,7 @@ body{
 /* Central block */
 .central-block{
   display: flex;
+  background-color: rgba(253,253,254,0.36);
 }
 .central-block_content{
   margin-left: 28px;
@@ -318,7 +319,7 @@ aside{
   font-family: Arial, sans-serif;
   color: #5c646e;
   h1{
-      margin: 30px 0 0 0;
+      margin: 27px 0 0 -1px;
       font-size: 24px;
       font-weight: bold;
       line-height: 0.58;
@@ -330,4 +331,199 @@ aside{
 }
 .lists-content{
   display: flex;
+  font-family: ArialMT, sans-serif;
+  h3{
+    margin: 21px 0 0 0;
+    font-size: 14px;
+    color: #5c646e;
+    span{
+        background-color: #dcdcdd;
+        font-size: 12px;
+        margin-left: 3px;
+    }
+  }
+  ul, ol{
+    margin: 0;
+    padding: 6px 0 0 21px;
+    li{
+      font-size: 14px;
+    }
+  }
+}
+/* List style type circle <ul> */
+.list-circle{
+  ul{
+    li{
+      padding: 0 0 6px 0;
+    }
+    ul{
+      list-style-type: disc;
+      padding: 6px 0 0 16px;
+      li{
+        font-size: 14px;
+      }
+    }
+  }
+}
+#li-c-1{
+  list-style-position: outside;
+}
+#li-c-2{
+  word-spacing: 1px;
+}
+#li-c-3{
+  padding-left: 0.5px;
+  word-spacing: 0.5px;
+}
+#li-c-4-1{
+  padding-bottom: 8px;
+  word-spacing: 1px;
+}
+#li-c-4-2{
+  padding-bottom: 5px;
+  letter-spacing: 0.1px;
+}
+#li-c-4-3{
+  padding-left: 1px;
+  padding-bottom: 0;
+  letter-spacing: 0.1px;
+}
+#li-c-5{
+  letter-spacing: 0.2px;
+  word-spacing: -0.5px;
+  padding-bottom: 8px;
+}
+#li-c-6{
+  word-spacing: 0.5px;
+}
+.list-unstyled{
+  ul{
+    list-style: none;
+    ul{
+      list-style-type: disc;
+    }
+  }
+}
+
+/* Unstyled <ul class="undefined"> */
+.list-unstyled{
+  margin-left: 15px;
+  h3{
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+    span{
+      font-size: 12px;
+      margin-left: 2px;
+      word-spacing: 0.5px;
+      letter-spacing: 0.2px;
+    }
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    ul{
+      padding: 0;
+    }
+  }
+}
+.outer-ul-un{
+  li{
+    margin-top: 6px;
+  }
+}
+#li-un-1{
+  word-spacing: -2.5px;
+  letter-spacing: 0.5px;
+}
+#li-un-2{
+  letter-spacing: 0.3px;
+  word-spacing: -2px;
+}
+#li-un-3, #li-un-4{
+  padding-top: 1px;
+  word-spacing: -2px;
+  letter-spacing: 0.4px;
+}
+#li-un-4-1, #li-un-4-2, #li-un-4-3{
+  margin-left: 23px;
+}
+#li-un-4-1{
+  margin-top: 4px;
+  letter-spacing: 0.1px;
+  word-spacing: -1px;
+
+}
+#li-un-4-2{
+  margin-top: 8px;
+  letter-spacing: 0.3px;
+}
+#li-un-4-3{
+  margin-top: 7px;
+  letter-spacing: 0.3px;
+}
+#li-un-5{
+  margin-top: 4px;
+  letter-spacing: 0.6px;
+  word-spacing: -4px;
+}
+#li-un-6{
+  margin-top: 9px;
+  letter-spacing: 0.2px;
+}
+
+/* Ordered List */
+.list-ordered{
+  margin-left: 24px;
+  ol{
+    padding-top: 6px;
+    padding-left: 14px;
+    li{
+      padding-bottom: 6.5px;
+      letter-spacing: 0.1px;
+    }
+  }
+}
+
+/* Table */
+.table-wrapper{
+  h1{
+    font-size: 24px;
+    margin: 25px 0 18px 0;
+    padding: 0;
+    color: #a5adb8;
+    font-family: ArialMT, sans-serif;
+    &::first-letter{
+      color: #ae4b5d;
+    }
+  }
+}
+.table{
+  width: 694px;
+  height: 269px;
+  color: #fbfafb;
+  font-size: 12px;
+  font-family: ArialMT, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 4px;
+  th, td {
+    border: 1px solid #ccc;
+  }
+  td{
+    background-color: #2A2D34;
+    height: 33px;
+    color: #a5adb8;
+  }
+  thead{
+    background-color: rgb(137, 70, 86);
+    th{
+      height: 29px;
+      &:first-child{
+        width: 43px;
+      }
+    }
+  }
+  a{
+    color: #9e7681;
+  }
 }
