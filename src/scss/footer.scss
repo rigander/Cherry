@@ -1,13 +1,114 @@
 footer{
   background-color: #282d37;
-  height: 229px;
 }
 .facebook, .linkedin, .instagram, .skype{
   cursor: pointer;
-  width: 6px;
-  height: 6px;
-  fill: #ad8dcc;
+  width: 20px;
+  height: 20px;
+  fill: #894656;
+  margin: 0 2px;
   &:hover{
     fill: white;
   }
+}
+/* Footer */
+footer{
+  font-family: ArialMT, sans-serif;
+  h2{
+    width: 270px;
+    font-size: 18px;
+    margin: 0 0 14px 0;
+    padding-bottom: 10px;
+    border-bottom: none;
+    background: linear-gradient(to bottom, #1a1c21 1px, #41464f 1px);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+.red-line{
+  height: 8px;
+  background-color: #984a5d;
+}
+.footer-content{
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 29px;
+  padding-left: 9px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 229px;
+  color: #85898f;
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+  }
+}
+.social{
+  flex-basis: 100%;
+}
+.list-cherry-hours{
+  h2::first-letter{
+    color: #ae4b5d;
+  }
+  ul li{
+    display: flex;
+    align-items: center;
+  }
+  ul li:first-child{
+    margin-bottom: 14px;
+  }
+  ul{
+    li{
+      list-style: none;
+    }
+  }
+}
+.list-local-cherry{
+  span{
+    display: inline-block;
+    &::first-letter{
+      color: #ae4b5d;
+    }
+  }
+}
+.clock{
+  width: 15px;
+  height: 15px;
+  fill: #9c4757;
+  margin-right: 9px;
+}
+
+.list-local-cherry{
+  ul li::marker{
+    color: #894656;
+  }
+  ul{
+    margin-left: 10px;
+    li:last-child{
+      list-style: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+
+.list-our-los-angeles{
+  ul{
+    li{
+      list-style: none;
+      margin-left: 10px;
+      a{
+        color: #d08b98;
+      }
+    }
+  }
+}
+.social{
+  text-align: center;
 }

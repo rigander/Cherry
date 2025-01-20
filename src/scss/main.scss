@@ -550,37 +550,3 @@ tr:last-child td:last-child{
 .th3{
   width: 185px;
 }
-
-
-/* Footer */
-footer{
-  font-family: ArialMT, sans-serif;
-  span{
-    font-size: 18px;
-  }
-}
-.red-line{
-  height: 8px;
-  background-color: #984a5d;
-}
-.footer-content{
-  margin: 0 auto;
-  width: 980px;
-  padding-top: 32px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 229px;
-  box-sizing: border-box;
-  color: #85898f;
-  ul{
-    padding: 0;
-    margin: 0;
-    li{
-      font-size: 12px;
-    }
-  }
-}
-.social{
-  flex-basis: 100%;
-}
